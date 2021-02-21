@@ -1,0 +1,55 @@
+[USUX]
+Laboratorium 1
+15.10.2020
+Arkadiusz Sowa 300506
+
+Używam systemu Ubuntu zainstalowanego na aplikacji VirtualBox
+
+Zadanie 1
+
+Komenda man wyświetla informacje na temat fukncji, którą podajemy jako jeden z argumentów. Występuje podział na poszczególne sekcje, dzięki czemu możemy zobaczyć informacje na temat danej funkcji i jej zastosowanie w poleceniach sysetemowych (sekcja 1), funkcje dostarczane przez jądro systemu (sekcja 2), funkcje z biblioteki programów (sekcja 3).
+
+Przykładowo
+man 1 mkdir -wyświetla opis funkcji mkdir, nazwe, sposób stosowania funkcji oraz dostępne opcje zastosowania funkcji. Widzimy również informacje o autorze, reportowaniu błędów oraz prawa autorskie. Ponieważ wybrałem sekcje 1 manuala informacje dotyczą zastowsowania funkcji w poleceniach systemowych. Dla sekcji 2 otrzymujemy podobny opis, ale odnoszący się do funkcji systemowych.
+
+Warto zauważyć, iż nie wszystkie funcje posiadają opis w każdej sekcji manuala. 
+
+Zadanie 2
+
+which- pozwala zlokalizować położenie programu podanego jako argument funkcji
+
+whatis- przeszukuje nazwy stron podręcznika i wyświetla opisy stron pasujących do podanej nazwy. Przykładowe użycie: whatis -d firefox, whatis printf.
+
+apropos- przeszukuje nazwy i opisy stron podręcznika, pomaga znaleźć funkcje podobne do funkcji podanej w argumencie apropos
+
+Zadanie 3 
+
+id- pozwala sprawdzić ID użytownika i grupy
+uid=1000(arek) gid=1000(arek) grupy=1000(arek),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),119(lpadmin),130(lxd),131(sambashare)
+
+who- pokazuje użytownika oraz dokładną date od kiedy dany użytkownik jest zalogowany
+arek     :0           2020-10-15 12:36 (:0)
+
+w- pokazuje kto jest zalogowany i co robi
+15:11:05 up  2:34,  1 user,  load average: 0,02, 0,05, 0,01
+UŻYTK.  TTY      Z                ZAL.OD   BEZCZ. JCPU   PCPU CO
+arek     :0       :0               12:36   ?xdm?   5:59   0.01s /usr/li
+
+last- pokazuje kto i kiedy logował się ostatnio do systemu
+
+Zadanie 4
+
+pwd- pokazuje bieżący katalog roboczy
+ls- pokazuje pliki i katalogi znajdujące się w katalogu w którym obecnie przebywamy
+cd- zmienia bieżący katalog na katalog domowy, pozwala poruszać się po katalogach. cd .. przenosi do katalogu niżej. 
+
+Zadanie 5
+
+cat- pozwala na tworzenie, łączenie i wyświetlanie plików
+more- udostępnia wiele opcji użytecznych podczas przeglądania plików
+less- przeglądanie plików z wieloma zaawansowanymi opcjami
+
+Zadanie 6
+
+Dwa edytory były zainstalowane na moim systemie, vim oraz geany zostały dodatkowo zainstalowane. Najbardziej podoba mi się edytor geany. Edytor vim pozwala na tworzenie plików tekstowych w środowisku przypominającym poruszanie się po konsoli.
+
